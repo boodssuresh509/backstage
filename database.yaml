@@ -3,7 +3,10 @@ kind: Resource
 
 metadata:
   name: payment-db
-  description: PostgreSQL database
+  description: PostgreSQL database for payments
+
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 
 spec:
   type: database
