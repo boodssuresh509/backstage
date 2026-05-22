@@ -3,7 +3,7 @@ kind: Component
 
 metadata:
   name: ${{ values.name }}
-  description: Generated Node.js service
+  description: EduArn Generated Node.js service
 
   annotations:
     backstage.io/techdocs-ref: dir:.
