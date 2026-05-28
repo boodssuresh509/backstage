@@ -1,14 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
-
 metadata:
   name: demo-service
-  links:
-    - url: http://localhost:3010
-  title: Grafana Monitoring
-  icon: dashboard
-
+  description: Demo monitored service
 spec:
-type: service
-lifecycle: production
-owner: guests
+  type: service
+  lifecycle: production
+  owner: guests
