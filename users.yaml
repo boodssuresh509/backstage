@@ -7,4 +7,5 @@ spec:
   profile:
     name: kumar
     email: eduarnofficial@gmail.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
   memberOf: [team-payments]
