@@ -2,13 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 
 metadata:
-  name: demo-service
-  description: Demo monitored service
-  annotations:
-    prometheus.io/rule: demo_requests_total
-    prometheus.io/alert: all
+name: demo-service
+
+links:
+- url: http://localhost:3010
+title: Grafana Monitoring
+icon: dashboard
 
 spec:
-  type: service
-  lifecycle: production
-  owner: guests
+type: service
+lifecycle: production
+owner: guests
