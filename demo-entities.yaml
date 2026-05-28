@@ -3,6 +3,12 @@ kind: Component
 metadata:
   name: demo-service
   description: Demo monitored service
+
+  annotations:
+    prometheus.io/target: demo-service
+    prometheus.io/rule: demo_requests_total
+    grafana/dashboard-url: http://localhost:3010
+
 spec:
   type: service
   lifecycle: production
