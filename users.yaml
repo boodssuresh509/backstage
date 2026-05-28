@@ -1,0 +1,10 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: eduarnofficial
+spec:
+  profile:
+    name: kumar
+    email: eduarnofficial@gmail.com
+  memberOf: [development]
