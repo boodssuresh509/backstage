@@ -2,12 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 
 metadata:
-name: demo-service
-
-links:
-- url: http://localhost:3010
-title: Grafana Monitoring
-icon: dashboard
+  name: demo-service
+  links:
+    - url: http://localhost:3010
+  title: Grafana Monitoring
+  icon: dashboard
 
 spec:
 type: service
